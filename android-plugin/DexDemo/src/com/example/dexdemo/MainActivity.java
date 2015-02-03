@@ -7,9 +7,6 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-
-import com.dg11185.libs.utils.log.Lg;
-
 import dalvik.system.DexClassLoader;
 
 public class MainActivity extends Activity {
@@ -40,7 +37,6 @@ public class MainActivity extends Activity {
                 methodonCreate.invoke(instance, new Object[] { MainActivity.this,  paramBundle });
             return;
         } catch (Exception ex) {
-            Lg.e(ex);
             ex.printStackTrace();
         }
     
