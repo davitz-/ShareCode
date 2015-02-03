@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# VERSION
+
+# 直接缓存的文件d
+CACHE:
+/appcache.jsp
+/pic.jpg
+
+# 一直从网络获取，不被缓存的资源
+NETWORK:
+
+
+# 指当没有响应时的替代方案，比如我想请求某个页面，但这个页面的服务器挂了，那么，我可以显示另外一个指定的页面
+FALLBACK:
+#http://www.baidu.com/

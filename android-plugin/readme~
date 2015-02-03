@@ -1,0 +1,10 @@
+代码相对比较简单，在下面地址附有一些讲解.
+http://blog.csdn.net/huashidaibo/article/details/43159063
+
+DexDemo DexPlugin1    以dex/jar的方式添加插件
+
+NoInstallDemo  NoInstallPlugin   不安装app方式添加插件
+
+SimpleDemo  SimplePlugin  app安装方式添加插件
+
+SUIDDemo SUIDplugin       app安装方式添加插件，通过SharedUserId的方式处理

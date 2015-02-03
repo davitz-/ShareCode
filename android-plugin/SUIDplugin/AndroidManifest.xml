@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suidplugin"
+    android:sharedUserId="com.example.suid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true">
+        <activity
+            android:name=".PluginMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.suidplugin.PluginMainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
